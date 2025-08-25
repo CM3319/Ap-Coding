@@ -11,8 +11,7 @@ print('Christopher Martin')
 # create and print a list that features 2 of each data type
 a = "Im going to jump off a building"
 
-pritn(
-    a)
+pritn(a)
 
 
 
@@ -23,3 +22,20 @@ if b > a
    print("b is greater than a")
    else:
     print("b is not greater than a") 
+
+    School = "boys latin"  # string
+    phoneNumber = 911 # integer
+    isEnrolled = True # boolean
+
+  
+    # = single equal sign - assisgnment 
+    # == double equal sign - comparsion
+    # > greater than 
+    # less than
+    print(2 > 2)
+
+    # logical operator -
+    print(4 > 3 and 5 < 6) # True
+
+    #arithemetic - a = 8 b = 3 c = 11 
+    print(a+b=c)
