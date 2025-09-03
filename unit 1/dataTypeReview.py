@@ -39,3 +39,22 @@ if b > a
 
     #arithemetic - a = 8 b = 3 c = 11 
     print(a+b=c)
+
+
+
+    syntax - the rules of how programming language is written
+
+    codepsaces - The section of github where users can write and run codepsaces
+
+    Github - a platform for writng, managing and sharintg codepsaces
+
+    repostitory - The section of github where users can share and view code in read only
+
+
+    string - something in qoutations
+
+    integers - whole numbers
+
+    floats - decimal numbers 
+
+    booleans - True or false
