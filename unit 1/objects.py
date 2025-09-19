@@ -14,9 +14,8 @@ class instaProfile:
                 print('Instructions')
 
         def viewFollowers():
-            print('list of other followers')
-
-   profile = instaProfile('Chris, C')
+            print('list of other followers'
+                  Profile = instaProfile('Chris, C')
 
 # when creating object we start wwith a classs keyword
 # This acts like our object maker / our keybaord
