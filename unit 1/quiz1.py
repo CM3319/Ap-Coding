@@ -55,7 +55,7 @@ class PS5:
                 print('PS5 lights up blue')
             if turnedoff:
                 print('PS5 lights up yellow and blinks repeatedly')
-        def PS5
+        def PS5():
 
         
 
@@ -73,4 +73,4 @@ class PS5:
 
 # 8. Create a class that will represent a video game for your console.
 # Your class should have 4 attributes and 3 methods objects.
-# ONCE You've created your class, create 2 unique video games objects.. 
+# # ONCE You've created your class, create 2 unique video games objects.
