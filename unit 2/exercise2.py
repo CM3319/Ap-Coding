@@ -15,13 +15,39 @@ team_5 =get_season_Results_By_team(2025,'SF')
 team_6 =get_season_Results_By_team(2025,'SEA')
 
 #print(team_1)
-print(team_2)
+#print(team_2)
 #print(team_3)
 #print(team_4)
-#print(team_5)
+print(team_5)
 #print(team_6)
 
 
 # the beest overall is IND
 # the worst is .
 
+def sum_numbers():
+    total = 0
+    while True:
+        num = float(input("Enter number: "))
+        total = total + num
+        done = input("Done? ")
+        if done == "y":
+            break
+    print(total)
+
+sum_numbers()
+
+
+
+def pdCheck():
+    values = []
+    while True:
+        number = input("Please enter a number (or type 'y' to stop): ")
+        if number.lower() == 'y':
+            break
+        values.append(number)
+        print("Current values:", values)
+    
+    print("Doing calculation")
+   
+pdCheck()
