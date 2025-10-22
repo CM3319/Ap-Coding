@@ -1,29 +1,29 @@
 from helperfunctions import get_team_records, get_season_Results_By_team
 
-schedules = get_team_records(2025)
-print(schedules)
+# schedules = get_team_records(2025)
+# print(schedules)
 
 
-top6_Teams = ['TB, IND, LA, BUF, SF, SEA']
+# top6_Teams = ['TB, IND, LA, BUF, SF, SEA']
 
 
 team_1 =get_season_Results_By_team(2025,'TB')
-team_2 =get_season_Results_By_team(2025,'IND')
-team_3 =get_season_Results_By_team(2025,'LA')
+team_2 =get_season_Results_By_team(2025,'IND') 
+team_3 =get_season_Results_By_team(2025,'LA') 
 team_4 =get_season_Results_By_team(2025,'BUF')
 team_5 =get_season_Results_By_team(2025,'SF')
 team_6 =get_season_Results_By_team(2025,'SEA')
 
 #print(team_1)
-#print(team_2)
+# print(team_2)
 #print(team_3)
-#print(team_4)
-print(team_5)
-#print(team_6)
+# print(team_4)
+# print(team_5)
+# print(team_6)
 
 
 # the beest overall is IND
-# the worst is .
+# the worst is LA 
 
 def sum_numbers():
     total = 0
@@ -40,14 +40,23 @@ sum_numbers()
 
 
 def pdCheck():
+    print("please eneter a number")
+    number = input()
     values = []
-    while True:
-        number = input("Please enter a number (or type 'y' to stop): ")
-        if number.lower() == 'y':
-            break
-        values.append(number)
-        print("Current values:", values)
-    
-    print("Doing calculation")
-   
+
+
+    while number != 'q':
+        values.append(int(number))
+        print(values)
+        print('please enter a number')
+        number = input()
+    else:
+        print('doing calculation...')
+        total = sum(values)
+        print(total)
 pdCheck()
+
+# the best home point team differential is IND 
+# the best away point team differential is
+
+    
