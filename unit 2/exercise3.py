@@ -15,12 +15,20 @@ from helperfunctions import get_team_records, get_season_Results_By_team,weeklyP
 
 # a high avg tells they have a quick playstyle with there wrs doing mostly short routes
 
-RB_1= weeklyPlayerStats(2024,"RB") 
+#RB_1= weeklyPlayerStats(2024,"RB") 
 
-print(RB_1)
+#print(RB_1)
 
 
 # saqoun barkley has the highest rushing yards 
 # derrick henry has the highest rushing yards per carry
 
 # a rnning back with high rushing yards but low ypc means they arent good and getting the good ball handed off to them 
+
+WR_1 = weeklyPlayerStats(2024,"WR") 
+
+print(WR_1)
+
+
+
+
