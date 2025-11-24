@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 #teamstats = get_advanced_team_records(2024)
 #print(teamstats)
 
+# this is a factual question because it asks  
 # cannot be answered due to the limit of code
 
 teamstats =  get_season_Results_By_team(2024, 'PHI')
@@ -14,6 +15,13 @@ teamstats =  get_season_Results_By_team(2024, 'PHI')
 '5. which wr had the most targets vs receptions in 2024'
 wrstats = get_player_stats_by_name(2024, 'J.Chase', 'WR')
 #print(wrstats)
+
+# this is a focused question, because its direct
+# and asking one thing
+# i used the helper function above because 
+# it gives all of the wr stats and i entered 
+# the top 5 wide receivers because they would 
+# they're top 5 in all stats-+
 
 # jamarr had the most targets and receptions in 2024
 
