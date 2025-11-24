@@ -25,4 +25,7 @@ adv= get_advanced_team_records(2024)
 print(adv)
 
 # this question is a clarity question because 
-# its easy to understand 
+# its easy to understand becuase its asking, time of possession 
+# we know what that isa and how does it connect 
+# with wins, i used the helper function above 
+# because it gives out all the stats in each game
