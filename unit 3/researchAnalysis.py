@@ -13,11 +13,16 @@ teamstats =  get_season_Results_By_team(2024, 'PHI')
 
 '5. which wr had the most targets vs receptions in 2024'
 wrstats = get_player_stats_by_name(2024, 'J.Chase', 'WR')
-print(wrstats)
+#print(wrstats)
 
 # jamarr had the most targets and receptions in 2024
 
 
-'6. does time of possesion strongly correlate with wins in 2024'
+'3. does time of possesion strongly correlate with wins in 2024'
 # this question cannot be answered because of how the code doesnt 
 # give feedback on time of possession
+adv= get_advanced_team_records(2024)
+print(adv)
+
+# this question is a clarity question because 
+# its easy to understand 
